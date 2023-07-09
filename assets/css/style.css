@@ -11,6 +11,9 @@
     --pink: #f5ebf7;
     --purple: #A06FCA;
 }
+a{
+    text-decoration: none;
+}
 nav{
     height: 4.5rem;
 }
