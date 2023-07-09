@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+:root{
+    --pink: #f5ebf7;
+    --purple: #A06FCA;
+}
+nav{
+    height: 4.5rem;
+}
+nav ul li{
+    background-color: var(--pink);
+    padding-left: 1rem;
+}
+.lm-padding{
+    padding-top: 4.5rem;
+}
+.lm-margin-top{
+    margin-top: 4.5rem;
+}
+.lm-background-pink, .lm-button:hover{
+    background-color: var(--pink);
+}
+.lm-button{
+    background-color: var(--purple);
+}
+.lm-purple,nav ul li a:hover, .lm-active, .lm-button:hover, a i:hover{
+    color: var(--purple) !important;
+}
+.lm-pink{
+    color: pink;
+}
+.lm-purple{
+    color: #A06FCA;
+}
+.font-secondary{
+    font-family: 'Shadows Into Light', cursive;
+}
+.lm-active{
+    text-decoration: var(--purple) wavy underline;
+}
+.lm-round{
+    border-radius: 140px;
+}
+.lm-margin-card .col-12:first-child, .lm-margin-card .col-12:nth-child(2), .lm-margin-card .col-12:nth-child(3), .lm-margin-div .col-7:first-child, .lm-margin-div .col-7:nth-child(2), .lm-margin-div .col-7:nth-child(3), .lm-margin-div .col-7:nth-child(4), .lm-margin-div .col-7:nth-child(5){
+    margin-bottom: 1rem;
+}
+.lm-text-center{
+    text-align: center;
+}
+
+
+

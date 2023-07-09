@@ -1,0 +1,32 @@
+@media screen and (min-width:576px){
+    .lm-text-center{
+        text-align: left;
+    }
+}
+@media screen and (min-width:768px){
+     .lm-margin-card .col-12:nth-child(3){
+       margin-bottom: 0;
+    }
+    
+}
+@media screen and (min-width:992px){
+    .lm-padding{
+        padding-top: 0px;
+    }
+    nav ul li{
+        background-color: rgba(255, 255, 255, 0);
+        padding-left: 0px;
+    }
+}
+@media screen and (min-width:1200px){
+    .lm-margin-card .col-12:first-child, .lm-margin-card .col-12:nth-child(2){
+        margin-bottom: 0;
+    }
+   
+}
+@media screen and (min-width:1400px){
+    .lm-margin-div .col-7:first-child, .lm-margin-div .col-7:nth-child(2), .lm-margin-div .col-7:nth-child(3), .lm-margin-div .col-7:nth-child(4), .lm-margin-div .col-7:nth-child(5){
+        margin-bottom: 0;
+    }
+   
+}
