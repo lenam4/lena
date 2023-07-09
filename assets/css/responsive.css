@@ -1,5 +1,7 @@
 @media screen and (min-width:576px){
-
+    .lm-text-center{
+        text-align: left;
+    }
 }
 @media screen and (min-width:768px){
      .lm-margin-card .col-12:nth-child(3){

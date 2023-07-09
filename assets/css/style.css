@@ -21,6 +21,9 @@ nav ul li{
 .lm-padding{
     padding-top: 4.5rem;
 }
+.lm-margin-top{
+    margin-top: 4.5rem;
+}
 .lm-background-pink, .lm-button:hover{
     background-color: var(--pink);
 }
@@ -47,6 +50,9 @@ nav ul li{
 }
 .lm-margin-card .col-12:first-child, .lm-margin-card .col-12:nth-child(2), .lm-margin-card .col-12:nth-child(3), .lm-margin-div .col-7:first-child, .lm-margin-div .col-7:nth-child(2), .lm-margin-div .col-7:nth-child(3), .lm-margin-div .col-7:nth-child(4), .lm-margin-div .col-7:nth-child(5){
     margin-bottom: 1rem;
+}
+.lm-text-center{
+    text-align: center;
 }
 
 

@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
   <script src="https://kit.fontawesome.com/646dd2caa7.js" crossorigin="anonymous"></script>
 </head>
-<body class="lm-padding">
+<body>
     <!-- Header -->
     <header>
         <nav class="container navbar navbar-expand-lg fixed-top rounded-bottom shadow p-3 mb-5 bg-light">
@@ -33,10 +33,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link lm-active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link lm-active" href="contact.html">Contact Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
@@ -49,73 +49,74 @@
             </div>
           </nav>
     </header>
-    <div class="container my-5">
-        <div class="row justify-content-center justify-content-md-between">
-            <div class="col-12 lm-purple pt-5 text-center">
-                <h1 class="mt-5">Contact</h1>
-            </div>
+    <main class="lm-margin-top">
+      <div class="container py-5">
+        <div class="text-center">
+         <h2 class="lm-purple">Contact Us</h2>
         </div>
-     <div class="row my-5 justify-content-center justify-content-md-between">
-            <div class="col-12 col-md-5">
-                <h2>Contact Info</h2>
-                <p>Thank you for considering our handmade soaps. We can't wait to hear from you and embark on this soap-tacular journey together!Your satisfaction is our top priority. We'll respond to your message as swiftly as we can, typically within 24-48 hours.. Contact Us for more informations!</p>
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td class="border-0">Address:</td>
-                            <td class="border-0">New Tower</td>
-                        </tr>
-                        <tr>
-                            <td class="border-0">Phone:</td>
-                            <td class="border-0">+123 456 78 910</td>
-                        </tr>
-                        <tr>
-                            <td class="border-0">E-mail:</td>
-                            <td class="border-0">soaps@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td class="border-0">Instagram:</td>
-                            <td class="border-0">bubble_bliss7</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-12 col-md-5">
-                <form action="#" method="#">
-                    <div class="form-group mb-2">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name"/>
-                    </div>
-                    <div class="form-group mb-2">
-                        <label for="email">Last name</label>
-                        <input type="text" class="form-control" id="email"/>
-                    </div>
-                    <div class="form-group mb-2">
-                        <label for="subject">E-mail</label>
-                        <input type="text" class="form-control" id="subject"/>
-                    </div>
-                    <div class="form-group mb-2">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" class="form-control"></textarea>
-                    </div>
-                    <div class="form-group my-3 d-flex justify-content-center">
-                        <button type="button" class="btn lm-button text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Send
-                          </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+      <div class="row my-5 justify-content-center justify-content-md-between">
+             <div class="col-12 col-md-5">
+                 <h2>Contact Info</h2>
+                 <p>Thank you for considering our handmade soaps. We can't wait to hear from you and embark on this soap-tacular journey together!Your satisfaction is our top priority. We'll respond to your message as swiftly as we can, typically within 24-48 hours.. Contact Us for more informations!</p>
+                 <table class="table">
+                     <tbody>
+                         <tr>
+                             <td class="border-0"><p class="mb-0 font-secondary fw-bold lm-purple fs-5">Address:</p></td>
+                             <td class="border-0">New Tower</td>
+                         </tr>
+                         <tr>
+                             <td class="border-0"><p class="mb-0 font-secondary fw-bold lm-purple fs-5">Phone:</p></td>
+                             <td class="border-0">+123 456 78 910</td>
+                         </tr>
+                         <tr>
+                             <td class="border-0"><p class="mb-0 font-secondary fw-bold lm-purple fs-5">E-mail:</p></td>
+                             <td class="border-0">soaps@gmail.com</td>
+                         </tr>
+                         <tr>
+                             <td class="border-0"><p class="mb-0 font-secondary fw-bold lm-purple fs-5">Instagram:</p></td>
+                             <td class="border-0">bubble_bliss7</td>
+                         </tr>
+                     </tbody>
+                 </table>
+             </div>
+             <div class="col-12 col-md-5">
+                 <form action="#" method="#">
+                     <div class="form-group mb-2">
+                         <label for="name">Name</label>
+                         <input type="text" class="form-control" id="name"/>
+                     </div>
+                     <div class="form-group mb-2">
+                         <label for="email">Last name</label>
+                         <input type="text" class="form-control" id="email"/>
+                     </div>
+                     <div class="form-group mb-2">
+                         <label for="subject">E-mail</label>
+                         <input type="text" class="form-control" id="subject"/>
+                     </div>
+                     <div class="form-group mb-2">
+                         <label for="message">Message</label>
+                         <textarea name="message" id="message" class="form-control"></textarea>
+                     </div>
+                     <div class="form-group my-3 d-flex justify-content-center">
+                         <button type="button" class="btn lm-button text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                             Send
+                           </button>
+                     </div>
+                 </form>
+             </div>
+         </div>
+     </div>
+    </main>
+    
     <!--Footer-->
   <footer class="bg-dark text-light px-2 py-3">
     <div class="container-fluid">
       <div class="row justify-content-around">
-        <div class="col-6 col-md-3">
+        <div class="col-sm-3 lm-text-center">
           <h1><a class="navbar-brand fs-3" href="index.html"><span class="fs-1 lm-purple font-secondary">B</span>ubble<span
             class="fs-1 lm-purple font-secondary">B</span>liss</a></h1>
           </div>
-        <div class="col-md-5 text-center">
+        <div class="col-sm-5 text-center">
           <p>
             <a href="https://www.facebook.com" target="_blank">
               <i class="fa-brands fa-square-facebook fs-3 text-light"></i>
@@ -128,11 +129,10 @@
             </a>
           </p>
         </div>
-        <div class="col-6 col-md-3 text-end">
+        <div class="col-sm-3 text-end d-none d-sm-block">
           <h4 class="fw-normal lm-purple">Contact</h4>
             <p class="mb-0">+123 456 78 910</p>
             <p class="mb-0">New Tower</p>
-            
         </div>
       </div>
       <div class="text-center">
